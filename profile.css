@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header, footer {
+  background-color: #dacfcf35;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+section {
+  background-color: #f2f2f2ce;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+section {
+    background-color: #f4f4f48f;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #646262;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

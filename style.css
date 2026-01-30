@@ -14,7 +14,6 @@ body {
   color: #333;
 }
 
-/* NAVBAR */
 .navbar {
   padding: 25px;
   display: flex;
@@ -30,14 +29,12 @@ body {
   text-decoration: none;
   color: #b03060;
   font-weight: 500;
-  transition: 0.3s;
 }
 
 .navbar a:hover {
   color: #ff4fa3;
 }
 
-/* HERO */
 .hero {
   position: relative;
   margin: 40px auto;
@@ -87,7 +84,6 @@ body {
   box-shadow: 0 8px 25px rgba(214, 51, 132, 0.25);
 }
 
-/* SETA */
 .seta-grande {
   position: absolute;
   right: 40px;
@@ -96,7 +92,6 @@ body {
   opacity: 0.07;
 }
 
-/* SEÇÕES */
 .secao {
   margin: 60px auto;
   width: 90%;
@@ -112,7 +107,6 @@ body {
   color: #d63384;
 }
 
-/* LISTA ESTILO LIMPO */
 .lista {
   display: flex;
   flex-direction: column;
@@ -121,14 +115,12 @@ body {
 
 .item strong {
   display: block;
-  font-size: 1rem;
   color: #b03060;
 }
 
 .item p {
-  font-size: 0.95rem;
-  color: #555;
   margin-top: 5px;
+  color: #555;
 }
 
 .item span {
@@ -138,13 +130,11 @@ body {
   margin-top: 5px;
 }
 
-/* TEXTO GERAL */
 .secao p {
   text-align: justify;
   line-height: 1.7;
 }
 
-/* LINKS */
 .secao a {
   color: #ff4fa3;
   text-decoration: none;
@@ -154,9 +144,7 @@ body {
   text-decoration: underline;
 }
 
-/* RESPONSIVO */
 @media (max-width: 900px) {
-
   .hero {
     flex-direction: column;
     text-align: center;
